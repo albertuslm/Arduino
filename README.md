@@ -1,5 +1,5 @@
-Arduino
-=======
+==Arduino==
+-----------
 
 Arduino samples (code & hardware configuration).
 
