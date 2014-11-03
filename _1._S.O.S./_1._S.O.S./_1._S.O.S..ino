@@ -59,7 +59,6 @@ void loop()
   }
   
   delay(500);
-
+}
 
 /*END*/
-
