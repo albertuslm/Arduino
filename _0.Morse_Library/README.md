@@ -6,13 +6,18 @@ __Description__: Morse code library.
 
 __To use it__: 
 1. Copy the *.cpp & *.h files into the arduino libraries folder:
-(on Windows):
-  My Documents\Arduino\libraries\MorseLibrary\Morse.cpp
-  My Documents\Arduino\libraries\MorseLibrary\Morse.h
 
-(on Mac & Linux):
-  Documents/Arduino/libraries/MorseLibrary/Morse.cpp
-  Documents/Arduino/libraries/MorseLibrary/Morse.h
+(on Windows):
+
+      My Documents\Arduino\libraries\MorseLibrary\Morse.cpp
+
+      My Documents\Arduino\libraries\MorseLibrary\Morse.h
+
+   (on Mac & Linux): 
+
+      Documents/Arduino/libraries/MorseLibrary/Morse.cpp
+
+      Documents/Arduino/libraries/MorseLibrary/Morse.h
 
 2. Include the library on your project.
 
@@ -21,13 +26,19 @@ __To use it__:
 	Morse morse(7,200);
 
 4. Call the letters/numbers:
-	letters: <cappital letter>_()
+	
+	letters: "cappital letter"_()
+	
 				A_()
-	numbers: _<number>()
+	
+	numbers: _"number"()
+	
 				_1()
 
 5. After each letter, call the method to set time between letters:
-	nextLetter()
+	
+				nextLetter()
 
 6. After each word, call the method to set time between words:
-	nextWord()
+
+				nextWord()
